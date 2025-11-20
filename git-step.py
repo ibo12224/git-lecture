@@ -1,12 +1,12 @@
 
 def init_git():
-    pirnt('git init')
+    print('git init')
 
 def add_to_stage(file_path):
     print(f'git add {file_path}')
 
 def add_all_commit():
-    pirnt('git commit')
+    print('git commit')
 
 def add_all_commit_message_option(message):
     print(f'git commit -m {message}')
